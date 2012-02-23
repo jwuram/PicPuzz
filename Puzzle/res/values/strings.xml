@@ -2,6 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, PuzzleActivity!</string>
-    <string name="app_name">Puzzle</string>
-	<string name="pick_another">New Puzzle!</string>
+    <string name="app_name">PicPuzz</string>
+	<string name="pick_another">Pick an Image!</string>
+	<string name="new_random">New Puzzle</string>
 </resources>

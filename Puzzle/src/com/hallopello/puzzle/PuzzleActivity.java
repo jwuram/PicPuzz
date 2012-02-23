@@ -102,7 +102,7 @@ public class PuzzleActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
     	super.onCreateOptionsMenu(menu);
     	
-    	menu.add(getResources().getString(R.string.pick_another));
+    	menu.add(getResources().getString(R.string.new_random));
     	return true;
     }
     
@@ -111,7 +111,7 @@ public class PuzzleActivity extends Activity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-    	if (getResources().getString(R.string.pick_another).equals(item.getTitle())) {
+    	if (getResources().getString(R.string.new_random).equals(item.getTitle())) {
     		showGallery(); 
     		return true;
     	}
