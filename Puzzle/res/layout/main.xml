@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.hallopello.puzzle.ui.PuzzleLayout 
+        android:id="@+id/puzzle"
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent" />
+	<Button 
+	    android:id="@+id/picknext"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@string/pick_another" 
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:onClick="pickNext"
+	    android:layout_marginBottom="100dp"
+	    android:visibility="gone"
+	    android:background="@drawable/button_selector"
+	    android:padding="15dp"
+	    android:textColor="#ffffff"
+	    android:textStyle="bold"
+	    android:textAppearance="@android:style/TextAppearance.Large"/>
+</FrameLayout>
